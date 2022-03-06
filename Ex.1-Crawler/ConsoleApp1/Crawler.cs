@@ -16,6 +16,13 @@ namespace Crawler
 			string body = await response.Content.ReadAsStringAsync();
 
 			Regex regex = new Regex(@".*@.*\..*");
+
+			var match = regex.Matches(body);
+
+			foreach (var item in match)
+			{
+				Console.WriteLine(item);
+			}
 		}
 	}
 }
