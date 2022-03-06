@@ -1,12 +1,21 @@
 ﻿using System;
+using System.Net.Http;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace Crawler
 {
 	class Crawler
 	{
-		static void Main(string[] args)
+		public async static Task Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			string website = args[0];
+			HttpClient httpClient = new HttpClient();
+			
+			HttpResponseMessage response = await httpClient.GetAsync(website);
+			string body = await response.Content.ReadAsStringAsync();
+
+			Regex regex = new Regex(@".*@.*\..*");
 		}
 	}
 }
