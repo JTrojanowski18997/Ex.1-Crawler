@@ -1,0 +1,16 @@
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\bin\Debug\net5.0\Ex.1-Crawler.exe
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\bin\Debug\net5.0\Ex.1-Crawler.deps.json
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\bin\Debug\net5.0\Ex.1-Crawler.runtimeconfig.json
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\bin\Debug\net5.0\Ex.1-Crawler.runtimeconfig.dev.json
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\bin\Debug\net5.0\Ex.1-Crawler.dll
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\bin\Debug\net5.0\ref\Ex.1-Crawler.dll
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\bin\Debug\net5.0\Ex.1-Crawler.pdb
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\obj\Debug\net5.0\Ex.1-Crawler.csproj.AssemblyReference.cache
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\obj\Debug\net5.0\Ex.1-Crawler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\obj\Debug\net5.0\Ex.1-Crawler.AssemblyInfoInputs.cache
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\obj\Debug\net5.0\Ex.1-Crawler.AssemblyInfo.cs
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\obj\Debug\net5.0\Ex.1-Crawler.csproj.CoreCompileInputs.cache
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\obj\Debug\net5.0\Ex.1-Crawler.dll
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\obj\Debug\net5.0\ref\Ex.1-Crawler.dll
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\obj\Debug\net5.0\Ex.1-Crawler.pdb
+C:\Users\s18997\Desktop\Ex.1 Crawler\Ex.1-Crawler\ConsoleApp1\obj\Debug\net5.0\Ex.1-Crawler.genruntimeconfig.cache
