@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Net.Http;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -24,16 +25,38 @@ namespace Crawler
             }
 
 			HttpClient httpClient = new HttpClient();
-			HttpResponseMessage response = await httpClient.GetAsync(website);
-			string body = await response.Content.ReadAsStringAsync();
+			HttpResponseMessage response = new HttpResponseMessage();
+			try
+			{
+				response.Dispose();
+				response = await httpClient.GetAsync(website);
+				response.EnsureSuccessStatusCode();
+				
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine("Błąd w czasie pobierania strony");
+				return;
+			}
 
+			string body = await response.Content.ReadAsStringAsync();
 			Regex regex = new Regex(@"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+");
 
 			var match = regex.Matches(body);
+			if (match.Count == 0)
+            {
+				Console.WriteLine("Nie znaleziono adresów email");
+				return;
+			}
 
-			foreach (var item in match)
+			var uniqueEmails = match
+				.Select(x => x.Value)
+				.Distinct()
+				.ToList();
+
+			foreach (var email in uniqueEmails)
 			{
-				Console.WriteLine(item);
+				Console.WriteLine(email);
 			}
 
 			httpClient.Dispose();
