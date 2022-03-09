@@ -36,6 +36,8 @@ namespace Crawler
 			catch (Exception ex)
 			{
 				Console.WriteLine("Błąd w czasie pobierania strony");
+				httpClient.Dispose();
+				response.Dispose();
 				return;
 			}
 
@@ -46,6 +48,8 @@ namespace Crawler
 			if (match.Count == 0)
             {
 				Console.WriteLine("Nie znaleziono adresów email");
+				httpClient.Dispose();
+				response.Dispose();
 				return;
 			}
 
