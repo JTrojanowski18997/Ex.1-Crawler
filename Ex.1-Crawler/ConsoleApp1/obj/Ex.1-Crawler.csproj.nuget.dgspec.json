@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s18997\\Desktop\\Ex.1 Crawler\\Ex.1-Crawler\\ConsoleApp1\\Ex.1-Crawler.csproj": {}
+    "C:\\Users\\s18997\\Desktop\\Git\\Ex.1-Crawler\\Ex.1-Crawler\\ConsoleApp1\\Ex.1-Crawler.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s18997\\Desktop\\Ex.1 Crawler\\Ex.1-Crawler\\ConsoleApp1\\Ex.1-Crawler.csproj": {
+    "C:\\Users\\s18997\\Desktop\\Git\\Ex.1-Crawler\\Ex.1-Crawler\\ConsoleApp1\\Ex.1-Crawler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s18997\\Desktop\\Ex.1 Crawler\\Ex.1-Crawler\\ConsoleApp1\\Ex.1-Crawler.csproj",
+        "projectUniqueName": "C:\\Users\\s18997\\Desktop\\Git\\Ex.1-Crawler\\Ex.1-Crawler\\ConsoleApp1\\Ex.1-Crawler.csproj",
         "projectName": "Ex.1-Crawler",
-        "projectPath": "C:\\Users\\s18997\\Desktop\\Ex.1 Crawler\\Ex.1-Crawler\\ConsoleApp1\\Ex.1-Crawler.csproj",
+        "projectPath": "C:\\Users\\s18997\\Desktop\\Git\\Ex.1-Crawler\\Ex.1-Crawler\\ConsoleApp1\\Ex.1-Crawler.csproj",
         "packagesPath": "C:\\Users\\s18997\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s18997\\Desktop\\Ex.1 Crawler\\Ex.1-Crawler\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\s18997\\Desktop\\Git\\Ex.1-Crawler\\Ex.1-Crawler\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
